@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "620987307290",
+    "project_id": "studyshare-d9662",
+    "storage_bucket": "studyshare-d9662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620987307290:android:869a7d1eb359e7eaa648a3",
+        "android_client_info": {
+          "package_name": "com.jhimsebastian.studyshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEB2Kk30b0OH0FxOgTAkOSzwPeOsq4J34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StudyShare</string>
+
+    <string name="Menu_panel">Panel</string>
+    <string name="Menu_cuenta">Cuenta</string>
+
+    <string name="Titulo_RL_Admin">Titulo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
