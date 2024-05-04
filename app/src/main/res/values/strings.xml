@@ -5,6 +5,32 @@
     <string name="Menu_cuenta">Cuenta</string>
 
     <string name="Titulo_RL_Admin">Titulo</string>
+
+    <string name="Txt_rol">Porfavor elija un rol</string>
+    <string name="Btn_rol_administrador">Administrador</string>
+    <string name="Btn_rol_cliente">Cliente</string>
+
+
+    <string name="TxtRegistroAdmin">Registro de administrador</string>
+
+    <string name="Et_nombres_admin">Nombres</string>
+    <string name="Et_email_admin">Email</string>
+    <string name="Et_password_admin">Contraseña</string>
+    <string name="Et_R_password_admin">Repita la contraseña</string>
+    <string name="Btn_registrar_admin">Registrarme</string>
+    <string name="Txt_tengo_cuenta">Tengo una cuenta.</string>
+
+
+    <string name="CerrarSesionAdmin">Cerrar sesión</string>
+
+    <string name="TxtLoginAdmin">Login administradores</string>
+    <string name="Btn_login_admin">Ingresar</string>
+
+    <string name="Btn_agregar_categoria">Agregar categoria</string>
+    <string name="Txt_agregar_categoria">Agregar categoria</string>
+    <string name="Et_categoria">Ingrese categoria</string>
+    <string name="Agregar_categoria_BD">Agregar</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
