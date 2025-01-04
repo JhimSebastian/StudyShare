@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0">
+
+    <!-- Fondo de pantalla -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo11"
+        android:scaleType="centerCrop" />
+
+    <!-- Contenido principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Texto de rol -->
+        <TextView
+            android:text="@string/Txt_rol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="80dp"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp" /> <!-- Separación adicional del título -->
+        
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icono_administrador"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Botón de rol de administrador -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Btn_rol_administrador"
+            android:text="@string/Btn_rol_administrador"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            app:cornerRadius="20dp"
+            android:textSize="15sp"
+            app:backgroundTint="#1976D2"
+            android:textAllCaps="true"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icono_cliente"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Botón de rol de cliente -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Btn_rol_cliente"
+            android:text="@string/Btn_rol_cliente"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            app:cornerRadius="20dp"
+            android:textSize="15sp"
+            app:backgroundTint="#1565C0"
+            android:textAllCaps="true"/>
+    </LinearLayout>
+
+</RelativeLayout>
